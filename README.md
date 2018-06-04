@@ -1,20 +1,36 @@
 at3
-========================================
-Apache access log Transform to Text
+====
+
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
+
+Apache access log Transform to Text  
 
 Under construction...
 
-## Specifications
-* Read combined apache accesslog
-* Transform to typical text format. Default tsv(either csv)
-* Progress report to CUI
-* Read multiple log files output to one file
-* Filterd at each lines
-* Load Configuration from file
+## Demo
+Under construction...
 
-## Filters
-* Bot filter
-* URL canonical filter
-* Internal Access filter
+## Usage
+The current version supports stdin and stdout.  
+```bash
+cat accesslog | at3 
+```
+then, Output formatted csv to stdout. 
+
+### CSV format
+* host
+* remote user
+* user
+* time
+* http method
+* request uri
+* http protocol
+* http status code
+* http referer
+* user agent
+
+## Installation
 
 
+## License
+MIT

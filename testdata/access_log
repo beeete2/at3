@@ -1,0 +1,3 @@
+127.0.0.1 - - [30/Apr/2018:02:26:45 +0900] "GET /robots.txt HTTP/1.1" 301 1147 "-" "Mozilla/5.0 (compatible; testbot/v0.0.1)"
+127.0.0.1 - - [15/May/2018:14:30:15 +0900] "GET / HTTP/1.1" 301 1147 "https://www.beeete2.com" "Mozilla/5.0 (compatible; testbot/v0.0.1)"
+127.0.0.1 - - [15/May/2018:14:31:35 +0900] "GET /blog/?p=781 HTTP/1.1" 200 13579 "-" "Mozilla/5.0 (compatible; testbot/v0.0.1)"
